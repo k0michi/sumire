@@ -1,0 +1,21 @@
+{
+  "name": "sumire",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./cjs/index.js",
+  "module": "./esm/index.js",
+  "browser": {
+    "./esm/index.js": "./esm/index.browser.js"
+  },
+  "dependencies": {
+    "hast-util-to-html": "^7.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.9.0"
+  },
+  "scripts": {
+    "build": "babel ./esm -d ./cjs"
+  }
+}
