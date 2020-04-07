@@ -19,7 +19,7 @@ Object.defineProperty(exports, "Fragment", {
 
 var _hastUtilToHtml = _interopRequireDefault(require("hast-util-to-html"));
 
-var _hastscriptJsx = require("@k0michi/hastscript-jsx");
+var _hastscriptJsx = require("hastscript-jsx");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 

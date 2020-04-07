@@ -8,7 +8,9 @@
     "./esm/index.js": "./esm/index.browser.js"
   },
   "dependencies": {
-    "hast-util-to-html": "^7.1.0"
+    "@k0michi/hyperscript-jsx": "^1.0.1",
+    "hast-util-to-html": "^7.1.0",
+    "hastscript-jsx": "^1.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
